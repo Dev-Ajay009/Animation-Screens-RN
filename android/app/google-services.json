@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "780807850924",
+    "project_id": "fir-c6205",
+    "storage_bucket": "fir-c6205.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:780807850924:android:dafb780bf8dcd3683a8809",
+        "android_client_info": {
+          "package_name": "com.testpro"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "BA6FSykMUtwXdFB6xZ_94NAo2MnKG61fIjo1CzlAfwfafTHjyox870UAcKYwjukLoovcx-ORAAkqZgmVC-Q4Dic"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
