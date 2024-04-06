@@ -15,6 +15,7 @@ import ScrollableTabViewReanimated from '../../screens/AnimtedScreen/ScrollableT
 import IntroAnimtedscreen from '../../screens/AnimtedScreen/IntroAnimtedscreen';
 import SKeletenAnimationLoading from '../../screens/AnimtedScreen/SKeletenAnimationLoading';
 import TinderNolibrey from '../../screens/AnimtedScreen/TinderNolibrey';
+import SwipableList from '../../screens/AnimtedScreen/SwipableList';
 
 const Stack = createStackNavigator();
 const DrawRoutes = () => {
@@ -28,6 +29,18 @@ const DrawRoutes = () => {
             <Stack.Navigator screenOptions={{ animation: 'flip' }}>
 
                 <>
+                <Stack.Screen
+                        name="SwipableList"
+                        component={SwipableList}
+                        options={options}
+
+                    />
+                <Stack.Screen
+                        name="IntroAnimtedscreen"
+                        component={IntroAnimtedscreen}
+                        options={options}
+
+                    />
                     <Stack.Screen
                         name="Home"
                         component={Home}
@@ -40,12 +53,7 @@ const DrawRoutes = () => {
                         options={options}
 
                     />
-                      <Stack.Screen
-                        name="SKeletenAnimationLoading"
-                        component={SKeletenAnimationLoading}
-                        options={options}
-
-                    />
+                     
                     <Stack.Screen
                         name="DrawbleStack"
                         component={DrawbleStack}

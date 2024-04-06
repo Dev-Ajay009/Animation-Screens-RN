@@ -142,6 +142,7 @@ import {
         {/* Header */}
         <View style={styles.Header}>
           <Animated.View entering={FadeInLeft.delay(100).duration(400)}>
+            
             <MenuIcon />
           </Animated.View>
           <Animated.View entering={FadeInRight.delay(100).duration(400)}>
